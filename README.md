@@ -1,8 +1,8 @@
 # Question-and-answer-program-using-python
 
 ### “admin.py” is a program with a Command-Line Interface (CLI).
-####This program allows the user to manage a collection of quiz questions that are to be stored in a text file named “data.txt”.  JSON is usedto write and to read the data from the file back into Python.
-####The program should then print a welcome message and enter an endless loop which starts by printing a list of options: “Choose [a]dd, [l]ist, [s]earch, [v]iew, [d]elete or [q]uit.” and then prompts the user to enter their choice. Once a choice has been entered, use an “if/elif” statement to handle each of the different choices.
+#### This program allows the user to manage a collection of quiz questions that are to be stored in a text file named “data.txt”.  JSON is usedto write and to read the data from the file back into Python.
+#### The program should then print a welcome message and enter an endless loop which starts by printing a list of options: “Choose [a]dd, [l]ist, [s]earch, [v]iew, [d]elete or [q]uit.” and then prompts the user to enter their choice. Once a choice has been entered, use an “if/elif” statement to handle each of the different choices.
 ####If the user enters “a” (add), prompt them to enter a question, then prompt them to enter as many answers as desired, and finally prompt them to enter the difficulty of the question, which must be an integer between 1 and 5. Place the details into a new dictionary with the structure shown on the previous page, and append the dictionary to the data list. Finally, write the entire data list to the text file in JSON format to save the data.
 ####If the user enters “l” (list), print a list of all the questions (just the question text, not the answers or difficulty) in the data list, preceded by their index number plus 1 (i.e. the first question listed should be number 1 instead of 0).
 ####If the user enters “s” (search), prompt them for a search term and then list the questions that contain the search term. Include the question’s index number plus 1 next to each result.
